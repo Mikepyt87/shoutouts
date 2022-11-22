@@ -1,0 +1,32 @@
+.SingleShoutout {
+  list-style: none;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  border-radius: 10px;
+  background-color: rgb(219, 219, 219);
+}
+
+.SingleShoutout .like-div {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.SingleShoutout .like-div p {
+  margin-right: 10px;
+}
+
+.SingleShoutout .delete {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.SingleShoutout .shoutout-img {
+  max-width: 400px;
+}
